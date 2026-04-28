@@ -1,8 +1,12 @@
-import React from 'react'
+import "./HomePage.scss"
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div className='home_container'>
+      <div className="glass_container">
+
+      </div>
+    </div>
   )
 }
 
