@@ -3,7 +3,7 @@ import "./GlassCard.scss"
 
 const GlassCard = ({ children, className = "" }) => {
   return (
-    <div className={`
+    <div className={`glassWidgets
       ${className} 
     `}>
       {children} 
