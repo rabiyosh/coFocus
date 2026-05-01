@@ -1,0 +1,24 @@
+.header_navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons{
+    width: $icons_width;
+    height: $icons_height;
+}
+.search_input::placeholder{
+    color: $text_color_small
+    
+}
+.search_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: $text_color_small;
+    height: 60px;
+    width: 330px;
+
+}
