@@ -9,7 +9,8 @@
     height: $icons_height;
 }
 .search_input::placeholder{
-    color: $text_color_small
+    color: $text_color_small;
+    font-family: $font-family ;
     
 }
 .search_box{
