@@ -1,12 +1,14 @@
-.btn{
+.btn {
     border: none;
-    
 }
 
-
-.solo_focus{
+.solo_focus {
     background-color: #ffffff;
     height: 51px;
     width: 182px;
-
+}
+.register_button {
+    height: 60px;
+    width: 115px;
+    color: $text_color_small;
 }

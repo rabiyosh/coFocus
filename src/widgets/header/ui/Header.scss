@@ -1,19 +1,17 @@
-.header_navbar{
+.header_navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.icons{
+.icons {
     width: $icons_width;
     height: $icons_height;
 }
-.search_input::placeholder{
+.search_input::placeholder {
     color: $text_color_small;
-    font-family: $font-family ;
-    
 }
-.search_box{
+.search_box {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,5 +19,12 @@
     color: $text_color_small;
     height: 60px;
     width: 330px;
-
+}
+#product_name{
+    color: $text_color_large;
+    font-size: 25px;
+}
+.register_buttons{
+    display: flex;
+    gap: 20px;
 }
