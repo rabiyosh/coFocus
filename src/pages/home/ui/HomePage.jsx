@@ -12,11 +12,15 @@ function HomePage() {
             <div className="glass_container">
                 <Header />
                 <div className="widgets">
-                <MusicPlayer />
-                <HeroFocus />
-                <Notes/>
-                <MiniTodoWidget/>
-                <AIChat/>
+                    <div className="main_widgets">
+                    <MusicPlayer />
+                    <HeroFocus />
+                    </div>
+                    <div className="footer_widgets">
+                    <Notes />
+                    <MiniTodoWidget />
+                    <AIChat />
+                    </div>
                 </div>
             </div>
         </div>
