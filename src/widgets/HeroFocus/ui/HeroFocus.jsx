@@ -4,7 +4,7 @@ import focusImg from "@/shared/assets/images/focus_bg.jpg"
 
 function HeroFocus() {
   return (
-    <div>
+    <div >
         <img src={focusImg} alt="focusBackground" className="background_focus" />
         <Button/>
     </div>

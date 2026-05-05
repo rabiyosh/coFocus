@@ -1,6 +1,6 @@
-import Inputs from "@/shared/ui/Input/Inputs";
 import "./Header.scss";
 import { useState } from "react";
+import Inputs from "@/shared/ui/Input/Inputs";
 import Button from "@/shared/ui/Button/Button";
 import down from "@/shared/assets/icons/down.png";
 import searchIcon from "@/shared/assets/icons/search.png";

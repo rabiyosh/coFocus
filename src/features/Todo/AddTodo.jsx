@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Inputs from "@/shared/ui/Input/Inputs";
-import Button from "../../shared/ui/Button/Button";
+import Button from "@/shared/ui/Button/Button";
 
-function Todo() {
+function AddTodo() {
     const [title, setTitle] = useState("");
     const [text, setText] = useState("");
     const [todos, setTodos] = useState(() => {
@@ -42,4 +42,4 @@ function Todo() {
     );
 }
 
-export default Todo;
+export default AddTodo;

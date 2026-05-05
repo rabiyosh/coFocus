@@ -2,9 +2,9 @@ import GlassCard from "@/shared/ui/background/GlassCard"
 
 function MusicPlayer() {
   return (
-    <div>
-        <GlassCard className="music_glasseffect" ></GlassCard>
-
+    <div className="glassWidgets">
+      
+dcdcdc
     </div>
   )
 }
