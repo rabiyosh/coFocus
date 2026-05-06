@@ -1,8 +1,8 @@
-
+import "./MiniTodoWidget.scss"
 
 function MiniTodoWidget() {
   return (
-    <div  className="glassWidgets">ggg</div>
+    <div  className="glassWidgets todo_widget">ggg</div>
   )
 }
 

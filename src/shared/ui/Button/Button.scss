@@ -8,7 +8,25 @@
     width: 182px;
 }
 .register_button {
-    height: 60px;
-    width: 115px;
+    height: 50px;
+    width: 120px;
     color: $text_color_small;
+}
+.focus_buttons {
+    display: flex;
+    gap: 10px;
+    button {
+        color: black;
+        background-color: white;
+        padding: 10px 15px;
+        border-radius: 30px;
+        height: 50px;
+        width: 160px;
+
+    }
+}
+
+.music_player{
+    height: 30px;
+    width: 30px;
 }

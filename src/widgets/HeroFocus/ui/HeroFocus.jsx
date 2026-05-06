@@ -1,14 +1,20 @@
-import Button from "@/shared/ui/Button/Button"
-import "./HeroFocus.scss"
-import focusImg from "@/shared/assets/images/focus_bg.jpg"
+import Button from "@/shared/ui/Button/Button";
+import "./HeroFocus.scss";
+
 
 function HeroFocus() {
-  return (
-    <div >
-        <img src={focusImg} alt="focusBackground" className="background_focus" />
-        <Button/>
-    </div>
-  )
+    return (
+        <div className="background_focus">
+            <h1 className="quote">
+                “Small steps every day lead to big results.”
+            </h1>
+            <p>Study or work with a partner to stay focused</p>
+            <div className="focus_buttons">
+                <Button>Solo Focus</Button>
+                <Button>Community Focus</Button>
+            </div>
+        </div>
+    );
 }
 
-export default HeroFocus
+export default HeroFocus;

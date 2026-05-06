@@ -1,0 +1,33 @@
+.notes {
+    width: 330px;
+    height: 230px;
+    border-radius: 40px;
+    // padding: 30px;
+}
+.notes_title {
+    width: 330px;
+    height: 50px;
+    background-color: rgba(255,255,2555,0.26);
+    border-radius: 50px 50px 0 0 ;
+    text-align: center;
+    padding: 15px;
+    color: $text_color_small;
+    font-weight: 700;
+}
+.notes_input{
+    padding: 20px;
+    width: 330px;
+    height: 150px;
+    resize: none;
+    overflow-wrap: break-word;
+    
+
+    &::placeholder{
+
+        color: rgb(32, 32, 32);
+    }
+     &::-webkit-scrollbar{
+        display: none;
+    }
+}
+

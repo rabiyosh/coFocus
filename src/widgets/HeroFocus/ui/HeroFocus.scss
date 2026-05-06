@@ -1,5 +1,20 @@
 .background_focus{
-    height: 438px;
-    width: 878px;
+    height: 400px;
+    width: 860px;
+    background: url(@/shared/assets/images/focus_bg.jpg) no-repeat center/cover;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: $text_color_small;
+    padding: 30px;
+    gap: 15px;
+    p{
+        font-weight: 100;
+    }
+    h1{
+        font-size: 36px;
+        width: 400px;
+        font-weight: 500;
+    }
 }
